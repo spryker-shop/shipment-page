@@ -13,9 +13,6 @@ use SprykerShop\Yves\ShipmentPage\Sanitizer\ItemSanitizerInterface;
 
 class ShipmentPageFactory extends AbstractFactory
 {
-    /**
-     * @return \SprykerShop\Yves\ShipmentPage\Sanitizer\ItemSanitizerInterface
-     */
     public function createItemSanitizer(): ItemSanitizerInterface
     {
         return new ItemSanitizer();
